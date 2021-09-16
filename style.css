@@ -2,15 +2,16 @@
   padding:0px;
   margin:0px;
   box-sizing:border-box;
+  vertical-align:baseline;
 }
 
 body{
-  background:green;
+  background:#16a085;
 }
 
 #quote-box{
   background:white;
-  color:green;
+  color:#16a085;
   width:600px;
   height:auto;
   border-radius: 2px;
@@ -22,14 +23,15 @@ body{
 
 #text{
   margin: 10px 30px;
+  text-align:center;
   font-family:Roboto;
   font-size: 25px;
   font-weight:bold;
 }
 
 #author{
-  position:relative;
-  left:80%;
+  text-align: center;
+  margin-top: 5px;
   font-family:Roboto;
   font-size: 20px;
 }
@@ -43,7 +45,7 @@ body{
   display:inline-block;
   position:relative;
   padding:10px 15px;
-  background: green;
+  background: #16a085;
   color:white;
   margin:5px;
   left:400px;
@@ -51,11 +53,22 @@ body{
   font-size: 13px;
 }
 
+#tweet-quote{
+    margin-left: 30px;
+}
+
 .fa-twitter{
-  background: green;
+  background: #16a085;
   color:white;
   padding:10px 10px;
   border-radius: 2px;
-  margin-left: 30px;
   font-size: 1.2em;
+}
+
+#footer{
+  text-align: center;
+  display: block;
+  color:white;
+  font-family:roboto;
+  
 }
