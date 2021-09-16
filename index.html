@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Random Quote Machine</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,14 +11,15 @@
   
   <body>
     <div id="quote-box">
-      <div id="text">"It is not what you do for your children, but what you have taught them to do for themselves, that will make them successful human beings."</div>
-      <div id="author">-&nbsp;<span id="qoute-author">Author</span></div>
+      <div id="text"></div>
+      <div id="author">-&nbsp;<span id="quote-author"></span></div>
       <div class="buttons">
-        <a class="button" id="tweet-quote" title="Tweet this quote!" target="_top">
-          <i class="fa fa-twitter"></i>
-        </a>
-        <a href="#" id="new-quote">New Quote</a>
+        <a class="button" href="" id="tweet-quote" title="Tweet this quote!" target="_top">
+          <i class="fa fa-twitter" id='twitter'></i></a> 
+        <a id="new-quote" onclick="randomQuotes(); randColor();">New Quote</a>
       </div> 
+     
     </div>
+     <div id="footer">From: AYUSH</div>
   </body>
 </html>
