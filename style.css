@@ -72,3 +72,35 @@ body{
   font-family:roboto;
   
 }
+
+@media only screen and (max-width: 600px) {
+  #quote-box{
+    width:300px;
+  }
+  
+  #text{
+    font-size:16px;
+    margin:8px;
+  }
+  
+  #author{
+    font-size:12px;
+  }
+  
+  #tweet-quote{
+    margin-left: 15px;
+  }
+  
+  .fa-twitter{
+    padding:5px 5px;
+    border-radius: 2px;
+    font-size: 1.2em;
+  }
+  
+  #new-quote{
+    left:170px;
+    font-size: 12px;
+    padding:5px;
+  }
+  
+}
